@@ -1,0 +1,19 @@
+
+{% include "recipes/partiels/head.html" %}
+
+<body>
+
+    {% include "recipes/partiels/header.html" %}
+
+    {% include "recipes/partiels/search.html" %}
+
+    <main class="main-container">
+
+       {% block content %}{% endblock content %}
+    </main>
+
+    {% include "recipes/partiels/footer.html" %}
+
+</body>
+
+</html>
